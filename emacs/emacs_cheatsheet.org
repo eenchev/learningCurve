@@ -8,14 +8,16 @@
 ** RET - Enter
 ** S - Shift
 ** Spc - Space
-
+   
 * Meta shortcuts:
+** Ch f - get help for a function by name
 ** Cx s - save file
 ** Cx Cc - exit emacs
 ** Cg - cancel command
 ** Cu REPEAT_TIMES COMMAND - repeats COMMAND REPEAT_TIMES times
 ** Cx z - repeat last command
 ** Cx u - undo
+** Cx 1 - leave only current window open
 ** Cx o - change window
 ** Cx } - enlarge window
 ** Cx { - shring window
@@ -24,6 +26,8 @@
 ** Cx b - switch to buffer, TAB to list buffers
    
 * Org mode:
+** List items - - + * 1. 1) cycle with S<- or S->
+** Description - prefixed with :: this is a description
 ** MRet - create a bullet point
 ** M-> or M<- - cycle bulletpoint levels
 ** S-> or S<- - cycle completion status
@@ -37,6 +41,8 @@
 ** Cc Cj - org goto mode
 ** Cc Cd - org deadline
 ** Cc Cs - schedule
+** Cc Cx p - set a property
+** Cc Cc d - delete a property
 
 * Magit:
 ** Cx g - git status
@@ -85,4 +91,4 @@
 ** Cw - kill region (cut)
 ** Mw - kill region save (copy) 
 ** Cy - yank (paste)
-** M% - queried find and replace
+**  M% - queried find and replace
