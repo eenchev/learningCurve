@@ -14,6 +14,7 @@
 ** Cx Cc - exit emacs
 ** Cg - cancel command
 ** Cu REPEAT_TIMES COMMAND - repeats COMMAND REPEAT_TIMES times
+** Cx z - repeat last command
 ** Cx u - undo
 ** Cx o - change window
 ** Cx } - enlarge window
@@ -37,7 +38,14 @@
 ** Cc Cd - org deadline
 ** Cc Cs - schedule
 
-* Magit: 
+* Magit:
+** Cx g - git status
+** g - refresh view
+** ? - get help with commands
+** s - stage from git status
+** c - commit
+** CcCc - apply commit messages
+** Pp - push origin master
 * Dired mode: 
 ** x - execute marked actions
 ** d - mark for deletion
@@ -72,7 +80,9 @@
 ** CSpc - start region rectangle selection
 
 * String editing:
+** CaCkCkCyCy - duplicate line 
 ** Cd - delete character
 ** Cw - kill region (cut)
 ** Mw - kill region save (copy) 
 ** Cy - yank (paste)
+** M% - queried find and replace
