@@ -46,6 +46,8 @@
 
 * Magit:
 ** Cx g - git status
+** ll - display git log
+** bb - checkout from log view
 ** g - refresh view
 ** ? - get help with commands
 ** s - stage from git status
@@ -75,7 +77,6 @@
 ** Cf - one char forward
 
 ** C<- - one word backwords
-
 ** C-> - one word forwards
 
 ** Ce - end of line
@@ -92,3 +93,5 @@
 ** Mw - kill region save (copy) 
 ** Cy - yank (paste)
 **  M% - queried find and replace
+
+* Shell:
