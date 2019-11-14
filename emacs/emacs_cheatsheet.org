@@ -1,0 +1,77 @@
+* Useful commands:
+** display-line-numbers-mode - display line numbers
+
+* Key aliases:
+** C - Ctrl
+** M - Alt
+** s - super key, usually Windows
+** RET - Enter
+** S - Shift
+** Spc - Space
+
+
+* Meta shortcuts:
+** Cx s - save file
+** Cx Cc - exit emacs
+** Cg - cancel command
+** Cu REPEAT_TIMES COMMAND - repeats COMMAND REPEAT_TIMES times
+** Cx u - undo
+** Cx o - change window
+** Cx } - enlarge window
+** Cx { - shring window
+
+* Multi buffer shortcuts:
+** Cx b - switch to buffer, TAB to list buffers
+   
+* Org mode:
+** MRet - create a bullet point
+** M-> or M<- - cycle bulletpoint levels
+** S-> or S<- - cycle completion status
+** RET-Spc[Spc] - checkbox
+** Cc - mark checkbox
+** [100%] or [0/0] (toggle with CcCc) - on upper level, monitor progress of checkboxes
+** CcCc - tag a row
+** SAup or SAdown - A,B,C notation marking
+** MAup or MAdown - change bullet order
+** STab - cycle through all expansion views
+** Cc Cj - org goto mode
+
+* Dired mode: 
+** x - execute marked actions
+** d - mark for deletion
+** D - delete
+** C - copy
+** R - rename
+** + - create folder
+
+* Buffer navigation:
+** g - update dired
+** M> - end of buffer 
+
+** M< - beginning of buffer
+** Mg g - go to line  
+** Cp - previous row
+
+** Cn - next row
+
+** Cb - one char backwords
+
+** Cf - one char forward
+
+** C<- - one word backwords
+
+** C-> - one word forwards
+
+** Ce - end of line
+
+** Ca - beginning of line
+** Cs - search (repeat for cycling through results)
+** Cr - reverse search
+** CSpc - start region rectangle selection
+
+
+* String editing:
+** Cd - delete character
+** Cw - kill region (cut)
+** Mw - kill region save (copy) 
+** Cy - yank (paste)
