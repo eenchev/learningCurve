@@ -34,7 +34,10 @@
 ** MAup or MAdown - change bullet order
 ** STab - cycle through all expansion views
 ** Cc Cj - org goto mode
+** Cc Cd - org deadline
+** Cc Cs - schedule
 
+* Magit: 
 * Dired mode: 
 ** x - execute marked actions
 ** d - mark for deletion
