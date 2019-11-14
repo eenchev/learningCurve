@@ -9,7 +9,6 @@
 ** S - Shift
 ** Spc - Space
 
-
 * Meta shortcuts:
 ** Cx s - save file
 ** Cx Cc - exit emacs
@@ -19,7 +18,7 @@
 ** Cx o - change window
 ** Cx } - enlarge window
 ** Cx { - shring window
-
+** Cx<- - go back to previous action in current buffer
 * Multi buffer shortcuts:
 ** Cx b - switch to buffer, TAB to list buffers
    
@@ -68,7 +67,6 @@
 ** Cs - search (repeat for cycling through results)
 ** Cr - reverse search
 ** CSpc - start region rectangle selection
-
 
 * String editing:
 ** Cd - delete character
