@@ -10,6 +10,7 @@
 ** Spc - Space
    
 * Meta shortcuts:
+** F10 - expand top bar
 ** Ch f - get help for a function by name
 ** Cx s - save file
 ** Cx Cc - exit emacs
@@ -22,6 +23,7 @@
 ** Cx } - enlarge window
 ** Cx { - shring window
 ** Cx<- - go back to previous action in current buffer
+
 * Multi buffer shortcuts:
 ** Cx b - switch to buffer, TAB to list buffers
    
@@ -65,22 +67,15 @@
 * Buffer navigation:
 ** g - update dired
 ** M> - end of buffer 
-
 ** M< - beginning of buffer
 ** Mg g - go to line  
 ** Cp - previous row
-
 ** Cn - next row
-
 ** Cb - one char backwords
-
 ** Cf - one char forward
-
 ** C<- - one word backwords
 ** C-> - one word forwards
-
 ** Ce - end of line
-
 ** Ca - beginning of line
 ** Cs - search (repeat for cycling through results)
 ** Cr - reverse search
