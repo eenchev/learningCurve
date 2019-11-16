@@ -64,8 +64,7 @@
 ** R - rename
 ** + - create folder
 
-* Buffer navigation:
-** g - update dired
+* Buffer navigation:** g - update dired
 ** M> - end of buffer 
 ** M< - beginning of buffer
 ** Mg g - go to line  
@@ -79,6 +78,8 @@
 ** Ca - beginning of line
 ** Cs - search (repeat for cycling through results)
 ** Cr - reverse search
+** Cx r Spc <a> - save buffer mark to register <a>
+** Cx r j <a> - jump to location of register a
 ** CSpc - start region rectangle selection
 
 * String editing:
